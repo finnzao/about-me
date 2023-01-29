@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&display=swap');
+
+:root {
+  --main-background-color: #1A202C;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+body {
+  background-color: var(--main-background-color);
+  color: white;
+  font-family: 'Bitter', serif;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.Home {
+  margin: 50px 0px;
+}

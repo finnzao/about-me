@@ -1,0 +1,14 @@
+.TextMedium {
+
+    initial-letter: unset;
+}
+
+.TextMedium p {
+    word-spacing: 10px;
+
+}
+
+.TextMedium mark {
+    background-color: grey;
+    color: cornsilk;
+}

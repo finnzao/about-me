@@ -1,0 +1,21 @@
+.PicProfile {
+    width: 200px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.PicProfile img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.TitleProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width:768px) {}

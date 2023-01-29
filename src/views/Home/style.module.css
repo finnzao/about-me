@@ -1,0 +1,11 @@
+.Home {
+    width: 738px;
+    min-height: 100vh;
+}
+
+
+@media (max-width:600px) {
+    .Home {
+        width: 100%;
+    }
+}

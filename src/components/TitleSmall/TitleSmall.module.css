@@ -1,0 +1,7 @@
+.TitleSmall {
+    display: flex;
+}
+
+.TitleSmall h3 {
+    border-bottom: 1px solid;
+}
