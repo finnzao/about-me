@@ -1,0 +1,8 @@
+.itemList {
+    list-style: none;
+    padding: 20px;
+}
+
+.itemList:hover {
+    background-color: rgba(34, 56, 247, 0.438);
+}

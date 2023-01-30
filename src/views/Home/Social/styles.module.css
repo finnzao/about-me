@@ -1,0 +1,40 @@
+.itemList {
+    list-style: none;
+    padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.linkSocial {
+    display: flex;
+    gap: 10px;
+}
+
+.Media {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemList span:hover {
+    border-bottom: 1px solid;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.itemList:hover {
+    background-color: rgba(34, 56, 247, 0.438);
+    cursor: pointer;
+
+}
+
+@media (max-width:600px) {
+    .Media {
+        padding: 0px 20px;
+    }
+}

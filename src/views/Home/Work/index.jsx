@@ -16,9 +16,9 @@ maioria dos projetos.
 Experiência no uso das Linguagens JavaScript,Python,PHP , e
 com banco de dados relacionados .Envolvendo tratamento de
 dados,CRUD,Sistema de login (AUTH JWT) ,Sistema de registros
-de usuários(MYSQL,NodeJS). Todos os projetos pessoas são
+de usuários (MYSQL, NodeJS). Todos os projetos pessoas são
 divulgados no GitHub." />
-            <ButtonBlue text="Portfolio aqui" />
+            <ButtonBlue link="https://github.com/finnzao?tab=repositories" text="Repositories" />
 
         </div>
     )

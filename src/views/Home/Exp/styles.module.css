@@ -1,3 +1,16 @@
+.List {
+    padding: 0;
+    gap: 15px;
+    display: grid;
+}
+
+.Exp {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 90px 0px;
+}
+
 @media (max-width:720px) {
     .Exp {
         padding: 20px;

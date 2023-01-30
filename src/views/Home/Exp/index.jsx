@@ -6,7 +6,7 @@ function Exp() {
     return (
         <div className={styles.Exp}>
             <TitleSmall title="Experiências" />
-            <ul>
+            <ul className={styles.List}>
                 <ListItem text="Familiarizado com programação orientada a objetos" />
                 <ListItem text="Autenticação JWT" />
                 <ListItem text="Sistemas CRUD em NodeJS,React,PHP" />
