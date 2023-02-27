@@ -2,6 +2,7 @@ import TitleSmall from "../../../components/TitleSmall/TitleSmall";
 import TextMedium from "../../../components/Texts/TextMedium/TextMedium";
 import ButtonBlue from "../../../components/Buttons/buttonblue/buttonblue";
 import styles from "./styles.module.css"
+import { Link } from "react-router-dom";
 function Work() {
     return (
 
@@ -16,10 +17,11 @@ maioria dos projetos.
 Experiência no uso das Linguagens JavaScript,Python,PHP , e
 com banco de dados relacionados .Envolvendo tratamento de
 dados,CRUD,Sistema de login (AUTH JWT) ,Sistema de registros
-de usuários (MYSQL, NodeJS). Todos os projetos pessoas são
+de usuários (MYSQL, NodeJS). Todos os projetos são
 divulgados no GitHub." />
-            <ButtonBlue link="https://github.com/finnzao?tab=repositories" text="Repositories" />
-
+            <Link to="/port">
+                <ButtonBlue text="Projetos" />
+            </Link>
         </div>
     )
 }

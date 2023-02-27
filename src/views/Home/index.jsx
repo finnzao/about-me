@@ -6,12 +6,13 @@ import Footer from "../../components/Layout/Footer/index"
 import styles from "./style.module.css";
 function Home() {
     return (
-        <div className={styles.Home}>
-            <Tittle />
-            <Work />
-            <Exp />
-            <Social />
-            <Footer />
+        <div className={styles.container}>
+            <div className={styles.Home}>
+                <Tittle />
+                <Work />
+                <Exp />
+                <Social />
+            </div>
         </div>
     )
 
