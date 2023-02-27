@@ -13,8 +13,10 @@ function Exp() {
                 <ListItem text="Ladding Pages e Portifolios" />
                 <ListItem text="Familiarizado com Manipulação de dados SQL" />
                 <ListItem text="Manipulação de arquivos PHP  na CMS NuvemShop" />
+                <ListItem text="Comando de diretorios servidores Linux" />
             </ul>
         </div>
+
     )
 }
 

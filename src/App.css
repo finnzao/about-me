@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
   --main-background-color: #1A202C;
@@ -28,7 +30,14 @@ body {
 .App {
   display: flex;
   justify-content: center;
+  margin: 20px 0px;
+  flex-direction: column;
 }
+
+.Text {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 
 .Home {
   margin: 50px 0px;
