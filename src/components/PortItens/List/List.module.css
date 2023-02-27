@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 .container {
@@ -18,4 +19,26 @@
     .title {
         font-size: 2rem;
     }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+@media (max-width:720px) {
+    .title {
+        font-size: 2rem;
+    }
+>>>>>>> d526fa272ed52c5957150f6feb0afff7f2520ff3
 }
