@@ -40,8 +40,22 @@ function List() {
 
             <Item
                 title="Ladding Page"
-                text="Modelo de uma das Ladding Page,usando JavaScript com HTML E CSS"
+                text="Modelo Ladding Page de um projeto real dedicado para uma clinica de dentista ,usando JavaScript com HTML E CSS"
                 link="https://land-dentist.vercel.app"
+                list={
+                    [
+                        <img src="https://skillicons.dev/icons?i=js"></img>,
+                        <img src="https://skillicons.dev/icons?i=css"></img>,
+                        <img src="https://skillicons.dev/icons?i=html"></img>,
+
+                    ]
+                }
+            />
+                    
+            <Item
+                title="CommerceJs"
+                text="Tratamento de dados fetch usando a API contentful como backend , o intuito desse projeto foi aperfeiçoar a lógica com a linguagem JavaScript, então todo foi feito de forma nativa."
+                link="https://commerce-js-delta.vercel.app"
                 list={
                     [
                         <img src="https://skillicons.dev/icons?i=js"></img>,
