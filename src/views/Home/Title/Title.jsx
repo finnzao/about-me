@@ -7,7 +7,7 @@ function Tittle() {
     return (
         <div className={styles.Tittle}>
             <TittleProfile name="Felipe" text="Programador FullStack" />
-            <AboutMeTitle text="Olá,Sou um Desenvolvedor Web  nascido no Brasil" />
+            <AboutMeTitle text="Olá! Me chamo Felipe ,e sou um Desenvolvedor Web  nascido no Brasil" />
             <div className={styles.linguagem}>
                 <a href="#">
                     <img src="https://skillicons.dev/icons?i=git,js,php,python,mysql,react" />

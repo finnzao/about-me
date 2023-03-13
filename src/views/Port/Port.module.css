@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 .back {
     position: fixed;
     bottom: 20px;
     left: 20px;
     display: block;
-=======
-.back {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    display: block;
->>>>>>> d526fa272ed52c5957150f6feb0afff7f2520ff3
 }

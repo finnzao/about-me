@@ -1,0 +1,35 @@
+.itemList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+}
+
+.itemList:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.largeText {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.smallText {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+@media (max-width:720px) {
+    .itemList {
+
+        width: 90%;
+    }
+
+}

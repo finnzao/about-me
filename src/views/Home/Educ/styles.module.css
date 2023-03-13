@@ -1,0 +1,19 @@
+.List {
+    padding: 0;
+    gap: 15px;
+    display: grid;
+}
+
+.Certi {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 90px 0px;
+}
+
+@media (max-width:720px) {
+    .Certi {
+        padding: 20px;
+    }
+
+}
