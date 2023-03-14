@@ -37,7 +37,9 @@ body {
 .Text {
   font-family: 'Libre Franklin', sans-serif;
 }
-
+.mouseDefault{
+  cursor: default;
+}
 
 .Home {
   margin: 50px 0px;
